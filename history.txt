@@ -17,3 +17,5 @@ Ustawiono now¹ cenê przedmiotu: 65.4 PLN.
 Zakoñczono edycje przedmiotu: "pi³ka do koszykówki"
 Sprzedano "Pi³ka do koszykówki" w iloœæ sztuk: 1. Cena sprzeda¿y: 65.4 PLN.
 Do konta dodano: 200.0 PLN.
+Sprzedano "Pi³ka do koszykówki" w iloœæ sztuk: 1. Cena sprzeda¿y: 65.4 PLN.
+Zakupiono przedmiot: "Hulajnoga", w iloœci: 3. Cena za sztuke: 150.78 PLN. £¹czna cena za zamówienie: 452.34 PLN. Cene sprzeda¿y produktu ustalono na: 210.2 PLN.

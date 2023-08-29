@@ -4,51 +4,69 @@ from Manager import Manager
 
 manager = Manager()
 
+load_data = FileHandler("history.txt", "balance.txt", "inventory.json")
+history = load_data.history
+account_balance = load_data.account_balance
+inventory = load_data.inventory
 
-@manager.assign("balance")
+# Change balance
+
+
+@manager.assign(1)
 def manage_balance(manager):
+    global account_balance
     account_balance += balance(history)
     account_balance_note(account_balance)
 
 
-@manager.assign("sell")
+# Sell
+@manager.assign(2)
 def manage_sell(manager):
+    global account_balance
     account_balance += sell(history, inventory)
     account_balance_note(account_balance)
 
 
-@manager.assign("buy")
+# Buy
+@manager.assign(3)
 def manage_buy(manager):
+    global account_balance
     account_balance -= buy(account_balance, history, inventory)
     account_balance_note(account_balance)
 
 
-@manager.assign("account_balance")
+# Account balance
+@manager.assign(4)
 def manage_account_balance(manager):
     account_balance_note(account_balance)
 
 
-@manager.assign("list")
+# List
+@manager.assign(5)
 def manage_list_overview(manager):
     list_overview(inventory)
 
 
-@manager.assign("inventory")
+# Inventory
+@manager.assign(6)
 def manage_inventory_overview(manager):
     inventory_overview(inventory)
 
 
-@manager.assign("history")
+# History
+@manager.assign(7)
 def manage_history_overview(manager):
     history_overview(history)
 
 
-@manager.assign("inventory_correction")
+# Inventory corrections
+@manager.assign(8)
 def manage_inventory_correction(manager):
     inventory_correction(history, inventory)
 
 
-@manager.assign("exit")
+# Exit
+@manager.assign(9)
 def manage_exit(manager):
     global run
     run = False
@@ -61,14 +79,10 @@ def manage_exit(manager):
 
 # Run app
 run = True
-load_data = FileHandler("history.txt", "balance.txt", "inventory.json")
-history = load_data.history
-account_balance = load_data.account_balance
-inventory = load_data.inventory
 while run:
     menu()
     try:
         command = int(input(": "))
         manager.execute(command)
     except ValueError:
-        bad_response()
+        print("Akcja niezdefiniowana")
