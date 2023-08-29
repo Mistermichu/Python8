@@ -1,0 +1,18 @@
+Do konta dodano: 1000.0 PLN.
+Do konta dodano: 9000.0 PLN.
+Zakupiono przedmiot: "Rower", w iloœci: 4. Cena za sztuke: 1200.47 PLN. £¹czna cena za zamówienie: 4801.88 PLN. Cene sprzeda¿y produktu ustalono na: 1899.99 PLN.
+Sprzedano "Rower" w iloœæ sztuk: 1. Cena sprzeda¿y: 1899.99 PLN.
+Rozpoczeto edycje przedmiotu "rower".
+Ustawiono now¹ nazwê przedmiotu: "Rower miejski".
+Zakoñczono edycje przedmiotu: "rower"
+Do konta dodano: 100.0 PLN.
+Sprzedano "Rower miejski" w iloœæ sztuk: 2. Cena sprzeda¿y: 3799.98 PLN.
+Zakupiono przedmiot: "Pi³ka", w iloœci: 10. Cena za sztuke: 20.24 PLN. £¹czna cena za zamówienie: 202.4 PLN. Cene sprzeda¿y produktu ustalono na: 59.99 PLN.
+Sprzedano "Pi³ka" w iloœæ sztuk: 2. Cena sprzeda¿y: 119.98 PLN.
+Rozpoczeto edycje przedmiotu "pi³ka".
+Ustawiono now¹ nazwê przedmiotu: "Pi³ka do koszykówki".
+Zakoñczono edycje przedmiotu: "pi³ka"
+Rozpoczeto edycje przedmiotu "pi³ka do koszykówki".
+Ustawiono now¹ cenê przedmiotu: 65.4 PLN.
+Zakoñczono edycje przedmiotu: "pi³ka do koszykówki"
+Sprzedano "Pi³ka do koszykówki" w iloœæ sztuk: 1. Cena sprzeda¿y: 65.4 PLN.
