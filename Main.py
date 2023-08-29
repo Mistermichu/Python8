@@ -4,11 +4,8 @@ from Manager import Manager
 
 
 load_data = FileHandler("history.txt", "balance.txt", "inventory.json")
-history = load_data.history
-account_balance = load_data.account_balance
-inventory = load_data.inventory
-
-manager = Manager(history, account_balance, inventory)
+manager = Manager(load_data.history,
+                  load_data.account_balance, load_data.inventory)
 
 
 # Change balance

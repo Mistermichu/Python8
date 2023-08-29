@@ -1,5 +1,8 @@
 class Manager:
-    def __init__(self):
+    def __init__(self, history, account_balance, inventory):
+        self.history = history
+        self.account_balance = account_balance
+        self.inventory = inventory
         self.actions = {}
 
     def assign(self, name):
