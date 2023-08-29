@@ -16,3 +16,4 @@ Rozpoczeto edycje przedmiotu "pi³ka do koszykówki".
 Ustawiono now¹ cenê przedmiotu: 65.4 PLN.
 Zakoñczono edycje przedmiotu: "pi³ka do koszykówki"
 Sprzedano "Pi³ka do koszykówki" w iloœæ sztuk: 1. Cena sprzeda¿y: 65.4 PLN.
+Do konta dodano: 200.0 PLN.
