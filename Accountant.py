@@ -1,6 +1,8 @@
 from Data_store import FileWriter, FileHandler
 from functions import menu, balance, account_balance_note, sell, buy, list_overview, inventory_overview, history_overview, inventory_correction, bad_response
+from Manager import Manager
 
+manager = Manager()
 run = True
 load_data = FileHandler("history.txt", "balance.txt", "inventory.json")
 history = load_data.history
